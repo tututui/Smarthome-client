@@ -16,7 +16,7 @@ export default function MobileSibar() {
     <>
       <div className="bg-white-100 flex items-center justify-between p-4 md:container md:mx-auto">
         <Image
-          src=" img/img1/logo.png"
+          src="/image/img1/logo.png"
         />
 
         <Button onClick={logout_handle} variant="light" size="lg" className="w-fit ">
