@@ -4,7 +4,7 @@ import axios from "axios"
 export default function Device({ id, name, path, stats }) {
 
     const handler = async () => {
-        await axios.post("http://localhost:3000/api/change", {
+        await axios.post("https://smarthome-backend-production-807e.up.railway.app/api/change", {
             id: id,
             open: stats
         })

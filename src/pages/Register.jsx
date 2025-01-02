@@ -36,7 +36,7 @@ const RegisterPage = () => {
         }
 
         setBtnLoad(true)
-        const response = await axios.post("http://smarthome-backend-production-807e.up.railway.app/api/register", {
+        const response = await axios.post("https://smarthome-backend-production-807e.up.railway.app/api/register", {
             username, email, password
         })
 
