@@ -17,7 +17,7 @@ export default function Outdoor() {
     }
 
     const getDevice = async () => {
-        const response = await axios.post("http://localhost:3000/api/getdevice", {
+        const response = await axios.post("http://smarthome-backend-production-807e.up.railway.app/api/getdevice", {
             room: "bedroom"
         })
 

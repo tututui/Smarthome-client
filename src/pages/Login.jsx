@@ -28,7 +28,7 @@ const LoginPage = () => {
         }
         setBtnLoad(true)
         e.preventDefault();
-        const response = await axios.post("http://localhost:3000/api/login", {
+        const response = await axios.post("http://smarthome-backend-production-807e.up.railway.app/api/login", {
             email, password
         })
 
