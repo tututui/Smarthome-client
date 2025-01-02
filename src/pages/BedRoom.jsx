@@ -88,7 +88,7 @@ const FormData = ({ isOpen, onClose }) => {
         e.preventDefault()
 
 
-        await axios.post("http://localhost:3000/api/enable", {
+        await axios.post("https://smarthome-backend-production-807e.up.railway.app/api/enable", {
             name: DeviceName,
         })
 
